@@ -1,0 +1,330 @@
+* {
+    color: white;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.first {
+    color: white;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38rem;
+    background-image: url('man.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+}
+
+nav {
+    font-size: 1.2rem;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.left {
+    font-family: "Lobster", sans-serif;
+    font-size: 2rem;
+    position: relative;
+    left: 40px;
+}
+
+.left span {
+    color: rgb(255, 217, 0);
+}
+
+.right {
+    display: flex;
+    position: relative;
+    right: 40px;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+
+}
+
+li a {
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: azure;
+    color: black;
+    border-radius: 50px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    /* top: 12rem; */
+}
+
+.second div {
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.second div span {
+    color: blueviolet;
+}
+
+.background2 {
+    position: absolute;
+    top: 38rem;
+    width: 100%;
+    background-image: url(man2.jpg);
+    height: 38rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    filter: blur(1px);
+}
+
+.third {
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 3.3rem;
+}
+
+.third h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 2.5rem;
+    margin: 40px;
+}
+
+.third p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: rgb(46, 46, 46);
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.feature:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.feature img {
+    height: 50px;
+    width: 50px;
+}
+
+#trainer {
+    margin-top: 25px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+#fourth {
+    position: relative;
+    top: 12rem;
+    background-color: black;
+    padding: 0 20px;
+}
+
+#fourth h2 {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(31, 31, 31);
+}
+
+#serv {
+    padding: 20px 60px;
+    text-align: justify;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    /* box-shadow: 0 0 1px rgb(242, 241, 241); */
+    border-radius: 50px;
+}
+
+#serv h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(218, 210, 224);
+    padding: 20px;
+}
+
+#serv span {
+    display: block;
+}
+
+#serv img {
+    height: 50px;
+    width: 50px;
+}
+
+.fifth {
+    display: flex;
+    justify-content: space-around;
+    height: 40rem;
+    position: relative;
+    top: 15rem;
+    z-index: 1;
+    /* background-color: red; */
+}
+
+.leftside {
+    display: flex;
+    position: relative;
+    top: 10px;
+    height: 10rem;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+}
+
+.leftside h6 {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.rightside {
+    height: 10rem;
+}
+
+.rightside span {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: rgb(249, 248, 248);
+}
+
+.background3 {
+    position: absolute;
+    margin-top: 12rem;
+    /* top: 38rem; */
+    width: 100%;
+    background-image: url(gym1.jpg);
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.contact {
+    position: relative;
+    left: 20rem;
+    top: -9rem;
+    z-index: 1;
+    background-color: rgb(84, 83, 83);
+    opacity: 0.6;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: greenyellow;
+}
+
+.contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.contact input {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    width: 30rem;
+    text-align: center;
+    align-items: center;
+    height: 1.4rem;
+    color: black;
+}
+
+form button {
+    margin-top: 10px;
+    background-color: rgb(162, 238, 10);
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    height: 2rem;
+    padding: 20px;
+
+}
+
+.media {
+    display: flex;
+}
+
+.media img {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
